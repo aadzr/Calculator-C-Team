@@ -1,18 +1,22 @@
 #include <stdio.h>
 
 
+// ADD
+int add(int a, int b) {
+    return a + b;
+}
 
+// SUB
+int sub(int a, int b) {
+    return a - b;
+}
 
+// MUL
+int mul (int a, int b) {
+    return a * b;
+}
 
-
-
-
-
-
-
-
-
-
+// DIV
 int divide(int a, int b) {
     if (b == 0) {
         printf("Error: Division by zero!\n");
@@ -21,6 +25,7 @@ int divide(int a, int b) {
     return a / b;
 }
 
+// MAIN
 int main() {
     int a, b, choice;
 
